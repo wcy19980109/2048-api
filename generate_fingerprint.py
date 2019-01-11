@@ -24,10 +24,11 @@ if __name__ == '__main__':
 
     '''====================
     Use your own agent here.'''
-    from game2048.agents import ExpectiMaxAgent as TestAgent
+    # from game2048.agents import ExpectiMaxAgent as TestAgent
+    from Nathan_Wang.naive_agent import NaiveAgent as TestAgent
     '''===================='''
 
-    fingerprint = generate_fingerprint(TestAgent)
+    fingerprint = generate_fingerprint(TestAgent, model_path='./model/model_622.08.pth')
 
     with open("EE369_fingerprint.json", 'w') as f:        
         pack = dict()

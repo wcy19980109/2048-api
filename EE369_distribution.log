@@ -1,0 +1,5 @@
+Loaded expectmax lib for 2048: C:\Users\ZIRC2\Documents\Nathan_Wang\2048-api-master_Nathan_Wang - ¸±±¾\game2048\expectimax\bin/2048.so
+Distribution:  Counter({512: 20, 1024: 16, 256: 9, 2048: 2, 64: 1, 32: 1, 128: 1})
+Total time: 215.28634071350098, total step: 18243
+Average time per step: 0.01180103824554629s
+Average scores: @50 times 664.96
