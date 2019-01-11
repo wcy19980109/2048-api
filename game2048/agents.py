@@ -21,6 +21,8 @@ class Agent:
                 if self.display is not None:
                     self.display.display(self.game)
 
+        return n_iter
+
     def step(self):
         direction = int(input("0: left, 1: down, 2: right, 3: up = ")) % 4
         return direction
